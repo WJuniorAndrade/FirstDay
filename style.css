@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --background--01:#020202;
+    --background--02:#101014;
+    --background--03:#151518;
+    --button--header:#945d46bd;
+    --orange:#D8441C;
+    
+}
+
+header {
+    height: 80vh;
+    background-image: url(image/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    
+}
+
+.container {
+    max-width: 85vw;
+    min-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 0px 50px;
+}
+
+.logo-site img {
+    width: 120px;
+}
+
+.menu-home a {
+    color: white;
+    margin: 0px 25px;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+a.button-assinar {
+    background-color: var(--orange);
+    padding: 12px 35px;
+    border-radius: 15px;
+    margin: 0%;
+}
+
+#home{
+    max-width: 80vw;
+    min-width: 700px; /* avaliar se o responsivo está tudo certo */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    
+}
+ 
+#title-home{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    color: white;
+
+}
+
+#title-home h1{
+    font-size: 4.5em;
+    margin-bottom: 30px;
+}
+
+#title-home p{
+    font-size: 2em;
+    margin-bottom: 90px;
+}
+
+#title-home a{
+    background-color: var(--orange);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (min-width: 1250px) and (max-width: 1400px) {
+    .img-title img {
+        width: 65%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1249px) {
+    .img-title img {
+        width: 60%;
+    }
+
+
+}
+
+
+
+@media (min-width: 360px) and (max-width: 480px) {
+    header {
+        padding-top: 20px;
+        margin: auto;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .logo-site img {
+        width: 60px;
+    }
+
+    .menu-home a {
+        padding: 10px 0px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    a.button-assinar {
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+
+
+
+
+ usar as mesmas unidade de medidas nos herdeiros da class pai. 
+
+    div.img-title {
+        display: block;
+        max-width: 400px;
+        min-width: 200px;
+        text-align: center;
+        justify-content: center;
+        padding: 0%;
+        
+        
+    }
+
+    .img-title img {
+        width: 95%;
+        margin: auto;
+    }
+
+    div#bottom-home-title {
+        display: block;
+        color: white;
+    }
+
+    h1#home-main-title {
+        font-size: 1em;
+        margin: 0p;
+    }
+
+    h2#home-main-sub-title {
+        margin: 0px;
+        color: white;
+        font-size: 1em;
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 359px) {
+    header {
+        padding-top: 20px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        padding: 0px 0px 40px 0px;
+        margin: 0px;
+        justify-content: space-around;
+    }
+
+    .logo-site img {
+        margin-bottom: 20px;
+    }
+
+    nav.menu-home a {
+        font-size: 16px;
+        margin: 0px 10px;
+        /* padding: 10px 10px; */
+   /*  }
+
+    a.button-assinar {
+        border-radius: 10px;
+        padding: 10px 15px;
+
+    }
+}
+
+body {
+    background-color: darkblue;
+} */ 
