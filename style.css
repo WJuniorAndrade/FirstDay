@@ -8,6 +8,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    
 }
 
 :root{
@@ -23,6 +24,11 @@
     --button--header: #945d46bd;
     --orange: #D8441C;
 }
+
+body{
+    background-color: #101014;
+}
+
 
 header {
     height: 80vh;
@@ -90,24 +96,23 @@ header {
 #title-home h1 {
     font-size: 3.5em;
     margin-bottom: 100px;
-    font-family: var(--encode-sans);
-    text-transform: uppercase;
+    font-family: var(--Coda-Caption);
+    
 
 }
 
 #title-home a {
     background-color: var(--orange);
     color: white;
-    padding: 30px;
+    padding: 30px 50px;
     border-radius: 15px;
     text-decoration: none;
     font-size: 2em;
-    font-family:var(--encode-sans);
+    font-family:var(--roboto);
 
 }
 
-
-.post{
+/* .post{
     max-width:100vw;
     width: 100%;
     height: 100vh;
@@ -121,13 +126,62 @@ header {
     height: 100vh;
     width: 100vw;
     background-color: #151518d7;
+} */
+
+main{
+    max-width: 80vw;
+    min-width: 700px;
+    height: 100vh;
+    margin: auto;
+}
+
+/* .sobre{
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #101014;
+    margin: auto;
+} */
+
+
+.sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 80vh;
+
+    column-gap: 20px;
 }
 
 
+/* .sobre img{
+    width: 40vw;
+    height: 85vh;
+    border-radius: 40px;
+} */
 
+.h2-desc{
+    background-color: aqua;
+    font-size: 3em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.p-desc{
+    background-color: #D8441C;
+    font-size: 2em;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
 
+}
 
-
+.img-sobre{
+    background-color: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
 
 
